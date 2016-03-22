@@ -14,16 +14,25 @@ Download the ebook or run the scraper yourself.
 
 1. Clone this project
 2. Install dependencies - Ruby, zlib, and calibre
-  
+
+
   ```command
+  # linux
   sudo apt-get install ruby-dev
   sudo apt-get install zlib1g-dev
   sudo apt-get install calibre
+
+  # osx
+  # ruby is pre-installed
+  brew install lzlib
+  brew install calibre
   ```
+
   In early versions, uri and open-uri were required gems, but they appear to have been rolled into the Ruby build now. 
   ```command
   gem install nokogiri
   ```
+
 3. Run the shell script, with the option of choice. -h shows options, -w creates the worm ebook, -p creates pact, and -t creates twig; -a creates all three.
 
   ```command
