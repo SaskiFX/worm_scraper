@@ -13,6 +13,11 @@ Download the ebook or run the scraper yourself.
 ##How to run:
 
 1. Clone this project
+  
+  ```command
+  git clone https://github.com/rhelsing/worm_scraper.git
+  ```
+
 2. Install dependencies - Ruby, zlib, and calibre
 
 
