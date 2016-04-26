@@ -36,6 +36,7 @@ Download the ebook or run the scraper yourself.
 3. Run the shell script, with the option of choice. -h shows options, -w creates the worm ebook, -p creates pact, and -t creates twig; -a creates all three.
 
   ```command
+  cd worm_scraper
   chmod +x make_ebook.sh
   ./make_ebook.sh -a
   ```
