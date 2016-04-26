@@ -25,7 +25,7 @@ Download the ebook or run the scraper yourself.
   # osx
   # ruby is pre-installed
   brew install lzlib
-  brew install calibre
+  brew cask install calibre
   ```
 
   In early versions, uri and open-uri were required gems, but they appear to have been rolled into the Ruby build now. 
